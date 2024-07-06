@@ -22,7 +22,7 @@
 //   numbers.push(+prompt("Enter numbers"));  
 // }
 
-// for (let j = 0; j < numbers.length; j++) {
+// for (var j = 0; j < numbers.length; j++) {
 //     sum= numbers[j] + sum; 
 // }
 // console.log(sum);
@@ -30,21 +30,13 @@
 
 
 //PROBLEM 3
+// user se 5 numbers le and unko aik aik kar k array me rakhe
+// 2. phr array elements me SUB SE BARA NUMBER find kar k print kare
 
-// var emptyArray = [];
-// var greaterValue = 0;
-// for(var k = 0; k < 5; k++ ){
-//    emptyArray.push(+prompt("Enter five numbers"));
+// var numbers = [];
+// var maxNum = -Infinity;
 
-
-
-// }
-
-
-// let numbers = [];
-// let maxNum = -Infinity;
-
-// for (let i = 1; i < 5; i++) {
+// for (var i = 1; i < 5; i++) {
 //     numbers[i]=+prompt("Enter any numbers")
 //   if (numbers[i] > maxNum) {
 //     maxNum = numbers[i];
@@ -55,26 +47,34 @@
 
 
 // PROBLEM 4
+// 1. user se koi b string input le
+// 2. usko reverse me print karde e.g: mehtab -> bathem
 
-let str = prompt("Enter a string:");
-let reversedStr = "";
 
-for (let i = str.length - 1; i >= 0; i--) {
-  reversedStr += str[i];
-}
+// var str = prompt("Enter a string:");
+// var reversedStr = "";
 
-console.log(`Reverse of "${str}" is "${reversedStr}"`);
+// for (var i = str.length - 1; i >= 0; i--) {
+//   reversedStr += str[i];
+// }
+
+// console.log(`Reverse of "${str}" is "${reversedStr}"`);
 
 
 
 
 
 //PROBLEM 5
+// 1. user se koi b NUMBER input le
+// 2. us number ka factorial find kr k print kare
+// 3. factorial def:
+// the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
+// 4 * 3 * 2 * 1 = 24
 
-// let num =+prompt("Enter a number:");
-// let factorial = 1;
+// var num =+prompt("Enter a number:");
+// var factorial = 1;
 
-// for (let i = 2; i <= num; i++) {
+// for (var i = 2; i <= num; i++) {
 //   factorial *= i;
 // }
 
