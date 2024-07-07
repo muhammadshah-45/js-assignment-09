@@ -33,17 +33,16 @@
 // user se 5 numbers le and unko aik aik kar k array me rakhe
 // 2. phr array elements me SUB SE BARA NUMBER find kar k print kare
 
-// var numbers = [];
-// var maxNum = -Infinity;
+var numbers = [];
+var maxNum = [0];
 
-// for (var i = 1; i < 5; i++) {
-//     numbers[i]=+prompt("Enter any numbers")
-//   if (numbers[i] > maxNum) {
-//     maxNum = numbers[i];
-//   }
-// }
-
-// console.log(`The greatest number is: ${maxNum}`);
+for (var i = 1; i <= 5; i++) {
+    numbers[i]=+prompt("Enter any numbers")
+  if (numbers[i] > maxNum) {
+    maxNum = numbers[i];
+  }
+}
+console.log(`The greatest number is: ${maxNum}`);
 
 
 // PROBLEM 4
@@ -79,5 +78,6 @@
 // }
 
 // console.log(`${num}! = ${factorial}`);
+
 
 
